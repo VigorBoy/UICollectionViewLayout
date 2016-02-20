@@ -1,0 +1,13 @@
+//
+//  ShopCellCollectionViewCell.h
+//  自定义瀑布流框架
+//
+//  Created by    🐯 on 16/2/13.
+//  Copyright © 2016年 张炫赫. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class Shop;
+@interface ShopCellCollectionViewCell : UICollectionViewCell
+@property(nonatomic,strong)Shop *shop;
+@end
